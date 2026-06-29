@@ -32,8 +32,14 @@
   }
 }
 
-* {
-  border-color: var(--color-border);
+/* In the `base` layer (not unlayered) so utility classes like
+   `border-transparent` still win — an unlayered rule here would beat
+   Tailwind's utilities regardless of specificity and silently override
+   any element that's supposed to render with no visible border. */
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
 }
 
 html,

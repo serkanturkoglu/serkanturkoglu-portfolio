@@ -51,7 +51,7 @@ export function WorkGrid({ projects }: { projects: ResolvedProject[] }) {
       <div
         role="tablist"
         aria-label="Filter projects by category"
-        className="flex flex-wrap gap-x-8 gap-y-3 border-b border-border pb-6"
+        className="flex flex-wrap gap-x-8 gap-y-1 border-b border-border pb-6"
       >
         {tabs.map((tab) => {
           const active = tab.id === filter;
@@ -62,7 +62,7 @@ export function WorkGrid({ projects }: { projects: ResolvedProject[] }) {
               role="tab"
               aria-selected={active}
               onClick={() => setFilter(tab.id)}
-              className={`-my-3 py-3 text-xs font-medium uppercase tracking-[0.16em] transition-all duration-200 ease-out active:scale-95 ${
+              className={`py-3 text-xs font-medium uppercase tracking-[0.16em] transition-all duration-200 ease-out active:scale-95 ${
                 active
                   ? "border-b border-foreground text-foreground"
                   : "border-b border-transparent text-muted hover:text-foreground"
