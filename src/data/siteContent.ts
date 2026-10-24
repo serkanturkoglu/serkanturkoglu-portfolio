@@ -119,6 +119,11 @@ export interface Project {
   featured?: boolean;
   /** Sıralamayı belirler — küçük sayı önce gösterilir. */
   order: number;
+  /**
+   * Opsiyonel: yalnızca kategori sekmesinde (örn. Music Videos) kullanılan sıra.
+   * Boşsa `order` kullanılır. "All" sekmesi her zaman `order`'a göre sıralanır.
+   */
+  categoryOrder?: number;
   /** Opsiyonel: proje sayfasındaki bilgi panelinde gösterilir. */
   client?: string;
   /** Opsiyonel: proje sayfasındaki bilgi panelinde gösterilir. */
@@ -383,7 +388,8 @@ export const projects: Project[] = [
       "",
     thumbnail: "",
     vimeoUrl: "https://vimeo.com/1199251457",
-    order: -3,
+    order: 19,
+    categoryOrder: -3,
   },
   {
     title: "Sla - Peri Masalı (Official Music Video)",
@@ -395,7 +401,8 @@ export const projects: Project[] = [
       "",
     thumbnail: "",
     vimeoUrl: "https://vimeo.com/1172776494",
-    order: 1,
+    order: 20,
+    categoryOrder: 1,
   },
   {
     title: "BCY & Favor - Kaldı Geriye Küllerim (Official Music Video)",
@@ -431,7 +438,8 @@ export const projects: Project[] = [
       "",
     thumbnail: "",
     vimeoUrl: "https://vimeo.com/1239086021",
-    order: -5,
+    order: 23,
+    categoryOrder: -5,
   },
   {
     title: "Soul Efesya - HİSTERİĞİZ (Official Music Video)",
@@ -443,7 +451,8 @@ export const projects: Project[] = [
       "",
     thumbnail: "",
     vimeoUrl: "https://vimeo.com/1239086596",
-    order: -6,
+    order: 24,
+    categoryOrder: -6,
   },
   {
     title: "Velet - Galiba (Official Video)",
@@ -455,7 +464,8 @@ export const projects: Project[] = [
       "",
     thumbnail: "",
     vimeoUrl: "https://vimeo.com/1239086363",
-    order: -4,
+    order: 25,
+    categoryOrder: -4,
   },
 
   
