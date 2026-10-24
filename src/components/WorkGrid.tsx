@@ -34,7 +34,14 @@ export function WorkGrid({ projects }: { projects: ResolvedProject[] }) {
     () =>
       filter === "all"
         ? projects
-        : projects.filter((project) => project.category === filter),
+        : projects
+            .filter((project) => project.category === filter)
+            // Kategori sekmesi kendi sırasını kullanır (categoryOrder);
+            // "All" sekmesindeki karışık düzen bundan etkilenmez.
+            .sort(
+              (a, b) =>
+                (a.categoryOrder ?? a.order) - (b.categoryOrder ?? b.order)
+            ),
     [projects, filter]
   );
 
