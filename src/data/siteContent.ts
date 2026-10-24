@@ -373,6 +373,50 @@ export const projects: Project[] = [
     vimeoUrl: "https://vimeo.com/860670271",
     order: 18,
   },
+  {
+    title: "Canis - BULAMADIM ÇARE (Official Music Video)",
+    category: "music-video",
+    year: 2026,
+    role: "Director",
+    description:
+      "",
+    thumbnail: "",
+    vimeoUrl: "https://vimeo.com/1199251457",
+    order: 19,
+  },
+  {
+    title: "Sla - Peri Masalı (Official Music Video)",
+    category: "music-video",
+    year: 2026,
+    role: "Director",
+    description:
+      "",
+    thumbnail: "",
+    vimeoUrl: "https://vimeo.com/1172776494",
+    order: 20,
+  },
+  {
+    title: "BCY & Favor - Kaldı Geriye Küllerim (Official Music Video)",
+    category: "music-video",
+    year: 2025,
+    role: "Director",
+    description:
+      "",
+    thumbnail: "",
+    vimeoUrl: "https://vimeo.com/1098637746",
+    order: 21,
+  },
+  {
+    title: "Hicran Akkılıç - Kahraman (Official Music Video)",
+    category: "music-video",
+    year: 2025,
+    role: "Director",
+    description:
+      "",
+    thumbnail: "",
+    vimeoUrl: "https://vimeo.com/1078336839",
+    order: 22,
+  },
 
   
   {
