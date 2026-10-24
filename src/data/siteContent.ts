@@ -383,7 +383,7 @@ export const projects: Project[] = [
       "",
     thumbnail: "",
     vimeoUrl: "https://vimeo.com/1199251457",
-    order: 19,
+    order: -3,
   },
   {
     title: "Sla - Peri Masalı (Official Music Video)",
@@ -395,7 +395,7 @@ export const projects: Project[] = [
       "",
     thumbnail: "",
     vimeoUrl: "https://vimeo.com/1172776494",
-    order: 20,
+    order: 1,
   },
   {
     title: "BCY & Favor - Kaldı Geriye Küllerim (Official Music Video)",
@@ -431,7 +431,7 @@ export const projects: Project[] = [
       "",
     thumbnail: "",
     vimeoUrl: "https://vimeo.com/1239086021",
-    order: 23,
+    order: -5,
   },
   {
     title: "Soul Efesya - HİSTERİĞİZ (Official Music Video)",
@@ -443,7 +443,7 @@ export const projects: Project[] = [
       "",
     thumbnail: "",
     vimeoUrl: "https://vimeo.com/1239086596",
-    order: 24,
+    order: -6,
   },
   {
     title: "Velet - Galiba (Official Video)",
@@ -455,7 +455,7 @@ export const projects: Project[] = [
       "",
     thumbnail: "",
     vimeoUrl: "https://vimeo.com/1239086363",
-    order: 25,
+    order: -4,
   },
 
   
