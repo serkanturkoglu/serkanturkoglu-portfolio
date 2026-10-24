@@ -417,6 +417,39 @@ export const projects: Project[] = [
     vimeoUrl: "https://vimeo.com/1078336839",
     order: 22,
   },
+  {
+    title: "KEİŞAN X CASH FLOW - İSMET (Official Music Video)",
+    category: "music-video",
+    year: 2026,
+    role: "Director",
+    description:
+      "",
+    thumbnail: "",
+    vimeoUrl: "https://vimeo.com/1239086021",
+    order: 23,
+  },
+  {
+    title: "Soul Efesya - HİSTERİĞİZ (Official Music Video)",
+    category: "music-video",
+    year: 2026,
+    role: "Director",
+    description:
+      "",
+    thumbnail: "",
+    vimeoUrl: "https://vimeo.com/1239086596",
+    order: 24,
+  },
+  {
+    title: "Velet - Galiba (Official Video)",
+    category: "music-video",
+    year: 2026,
+    role: "Director",
+    description:
+      "",
+    thumbnail: "",
+    vimeoUrl: "https://vimeo.com/1239086363",
+    order: 25,
+  },
 
   
   {
