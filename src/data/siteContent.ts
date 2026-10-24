@@ -377,6 +377,7 @@ export const projects: Project[] = [
     title: "Canis - BULAMADIM ÇARE (Official Music Video)",
     category: "music-video",
     year: 2026,
+    client: "Rapkology",
     role: "Director",
     description:
       "",
@@ -388,6 +389,7 @@ export const projects: Project[] = [
     title: "Sla - Peri Masalı (Official Music Video)",
     category: "music-video",
     year: 2026,
+    client: "1OF1 Music",
     role: "Director",
     description:
       "",
@@ -399,6 +401,7 @@ export const projects: Project[] = [
     title: "BCY & Favor - Kaldı Geriye Küllerim (Official Music Video)",
     category: "music-video",
     year: 2025,
+    client: "Rapkology",
     role: "Director",
     description:
       "",
@@ -410,6 +413,7 @@ export const projects: Project[] = [
     title: "Hicran Akkılıç - Kahraman (Official Music Video)",
     category: "music-video",
     year: 2025,
+    client: "Mb Yapım",
     role: "Director",
     description:
       "",
@@ -421,6 +425,7 @@ export const projects: Project[] = [
     title: "KEİŞAN X CASH FLOW - İSMET (Official Music Video)",
     category: "music-video",
     year: 2026,
+    client: "Neef Social & MB Müzik Bankası",
     role: "Director",
     description:
       "",
@@ -432,6 +437,7 @@ export const projects: Project[] = [
     title: "Soul Efesya - HİSTERİĞİZ (Official Music Video)",
     category: "music-video",
     year: 2026,
+    client: "Soul Efesya",
     role: "Director",
     description:
       "",
@@ -443,6 +449,7 @@ export const projects: Project[] = [
     title: "Velet - Galiba (Official Video)",
     category: "music-video",
     year: 2026,
+    client: "Neef Social & MB Müzik Bankası",
     role: "Director",
     description:
       "",
